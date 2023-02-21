@@ -1,0 +1,42 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  th {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  .dark-mode {
+	background-color: #222;
+	color: #fff;
+  }
+  
+  .dark-mode th {
+	background-color: #444;
+  }
+  
+  .dark-mode tr:nth-child(even) {
+	background-color: #444;
+  }
+  
+  #toggle-mode {
+	text-align: right;
+	margin-bottom: 20px;
+  }
+  
+  #toggle-btn {
+	padding: 10px 20px;
+	font-size: 16px;
+  }
+  
